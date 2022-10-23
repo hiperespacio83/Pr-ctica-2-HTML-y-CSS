@@ -1,0 +1,70 @@
+@import url('normalize.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+
+}
+
+
+h1,h2,h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+section{
+  /*   width: 80%; */
+    margin-left: 120px;  
+    
+    
+}
+aside {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    
+}
+aside div {
+    height: 50%;
+}
+
+/* section,article {
+    display: inline-block;
+    position: relative;
+    left: 50px;
+} */
+
+section .flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    
+    
+}
+
+section .flex figure, section .flex aside {
+    width: 33.33%;
+    overflow: hidden;
+   
+    
+}
+figure {
+    background: linear-gradient(to bottom, white 0%, white 50%,hsl(50, 84%, 58%) 50%, hsl(50, 84%, 58%) 100%);
+    width: auto;
+
+}
+
+a {
+    color: black;
+}
+
+
+
